@@ -55,8 +55,6 @@ C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\eTickets.TagHel
 C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\eTickets.TagHelpers.output.cache
 C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\eTickets.RazorCoreGenerate.cache
 C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Index.cshtml.g.cs
-C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -74,3 +72,4 @@ C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Pro
 C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Cinames\Index.cshtml.g.cs
 C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
 C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\eTickets.csproj.AssemblyReference.cache
+C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Create.cshtml.g.cs
