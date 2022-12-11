@@ -1,5 +1,6 @@
 ﻿using eTickets.Data;
 using eTickets.Data.Services;
+using eTickets.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -19,7 +20,7 @@ namespace eTickets.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var data =await _actorsService.GetAll();
+            var data = await _actorsService.GetAllAsync();
             return View(data);
         }
 
@@ -27,6 +28,29 @@ namespace eTickets.Controllers
         public IActionResult Create()
         {
             return View();
+        }
+
+        [HttpPost]
+        
+        public async Task<IActionResult> Create([Bind("FullName, ProfilePictureUrl, Bio")] Actor actor)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(actor);
+            }
+            await _actorsService.AddAsync(actor);
+            return RedirectToAction(nameof(Index));
+        }
+
+        //Get: Actors/Details/1
+
+        public async Task<IActionResult> Details(int id)
+        {
+            var actorDetails =await _actorsService.GetByIdAsync(id);
+
+            if (actorDetails == null) return BadRequest();
+
+            return View(actorDetails);
         }
     }
 }
