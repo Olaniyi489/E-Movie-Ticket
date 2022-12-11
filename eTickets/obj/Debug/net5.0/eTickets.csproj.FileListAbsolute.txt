@@ -74,3 +74,6 @@ C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Mov
 C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\eTickets.csproj.AssemblyReference.cache
 C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Create.cshtml.g.cs
 C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Details.cshtml.g.cs
+C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Edit.cshtml.g.cs
+C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Delete.cshtml.g.cs
+C:\Users\Decagon\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Shared\NotFound.cshtml.g.cs
